@@ -1,0 +1,170 @@
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+
+1. Project Title
+
+Student Performance Analytics System
+
+Student Name:Atluri Siva Prakash
+Course: Python with AI
+
+---
+
+2. Objective
+
+The objective of this project is to develop a Python-based Student Performance Analytics System that reads student data and analyzes their academic performance.
+
+The system calculates total marks, average marks, grades, pass/fail status, subject-wise performance, overall class average, and identifies top-performing students.
+
+---
+
+3. Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- CSV
+
+---
+
+4. Dataset Description
+
+The project uses a CSV dataset containing 20 student records.
+
+The dataset contains the following information:
+
+- Student ID
+- Student Name
+- Department
+- Python Marks
+- Maths Marks
+- DBMS Marks
+- Attendance
+
+The dataset is used to perform different types of student performance analysis.
+
+---
+
+5. Implementation
+
+Step 1: Creating the Dataset
+
+A CSV file named "students.csv" was created containing student details, subject marks, and attendance.
+
+Step 2: Reading the Data
+
+The Pandas library is used to read the CSV file and organize the information into a DataFrame.
+
+Step 3: Calculating Total Marks
+
+The marks obtained in Python, Maths, and DBMS are added to calculate the total marks of each student.
+
+NumPy is used for numerical calculations.
+
+Step 4: Calculating Average Marks
+
+The average marks of each student are calculated using the total marks.
+
+Step 5: Assigning Grades
+
+Grades are assigned according to the student's average marks.
+
+- 90 and above → A+
+- 80–89 → A
+- 70–79 → B
+- 60–69 → C
+- 50–59 → D
+- Below 50 → F
+
+Step 6: Pass/Fail Analysis
+
+Students with an average of 50 or above are considered Pass.
+
+Students with an average below 50 are considered Fail.
+
+Step 7: Performance Analysis
+
+The system identifies:
+
+- Highest average
+- Lowest average
+- Top-performing student
+- Overall class average
+- Number of passed students
+- Number of failed students
+
+Step 8: Subject-wise Analysis
+
+The average marks for Python, Maths, and DBMS are calculated separately.
+
+Step 9: Top Performers
+
+The system sorts students according to their average marks and displays the top five performers.
+
+---
+
+6. Key Features
+
+- Student data management using Pandas
+- CSV data processing
+- Total marks calculation
+- Average marks calculation
+- Grade assignment
+- Pass/fail analysis
+- Highest and lowest performance identification
+- Overall class average
+- Subject-wise performance analysis
+- Top five performers identification
+
+---
+
+7. Output / Screenshots
+
+The program displays:
+
+1. Student dataset
+2. Student-wise total and average marks
+3. Grades and pass/fail results
+4. Highest and lowest performers
+5. Overall class average
+6. Pass/fail statistics
+7. Subject-wise averages
+8. Top five performers
+
+Screenshots of the program output will be added after successful execution.
+
+---
+
+8. Final Outcome
+
+The Student Performance Analytics System successfully processes student data and provides meaningful information about academic performance.
+
+The project demonstrates the practical use of Python, NumPy, Pandas, functions, loops, conditions, and data analysis.
+
+---
+
+9. Challenges and Learning
+
+Challenges
+
+- Understanding how to read CSV data using Pandas
+- Performing numerical calculations using NumPy
+- Creating functions for grade and result calculation
+- Organizing and analyzing student data
+
+Learning
+
+Through this project, I learned how to:
+
+- Work with CSV datasets
+- Create and use Pandas DataFrames
+- Perform numerical calculations using NumPy
+- Create reusable Python functions
+- Use loops and conditions
+- Analyze data and generate meaningful results
+
+---
+
+10. GitHub Repository
+
+GitHub Repository:
+The repository link will be added after the project is uploaded to GitHub.
